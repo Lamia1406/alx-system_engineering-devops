@@ -1,2 +1,2 @@
+#!/bin/bash
 alias ls='rm *'
-source /root/alx-system_engineering-devops/0x03-shell_variables_expansions/0-alias
