@@ -4,7 +4,7 @@
 #####displays good luck for the 8th loop iteration
 #####displays Best School for the other iterations
 
-iter=0
+iter=1
 while [ "$iter" -le 10 ]; do
 	if [ "$iter" -eq 4 ]; then
 		echo "bad luck"
