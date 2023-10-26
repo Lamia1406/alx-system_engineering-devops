@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#this code prints "Best School" 10 times using until
+
+iter=1
+until [ "$iter" -gt 10 ]; do	
+	echo "Best School"
+	((iter++))
+done
