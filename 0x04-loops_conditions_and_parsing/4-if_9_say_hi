@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #this code  displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line.
-iter=0
+iter=1
 while [ "$iter" -le 10 ]; do
 	echo "Best School"
 	if [ "$iter" -eq 9 ]; then
