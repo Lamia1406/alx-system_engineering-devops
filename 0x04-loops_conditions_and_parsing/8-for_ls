@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#displays:
+#####The content of the current directory
+#####In a list format
+#####Where only the part of the name after the first dash is displayed
+
+files=$(find -- * -maxdepth 1| cut -d'-' -f2- )
+
+for one_f in $files; do
+	echo "$one_f"
+done
