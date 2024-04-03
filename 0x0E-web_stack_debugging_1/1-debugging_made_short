@@ -1,6 +1,3 @@
-#!/usr/bin/env bash
-# configure nginx to run on port 80
-sudo apt-get update
-sudo apt-get install -y nginx
-service nginx start
-
+#!/bin/bin/env bash
+# kill nginx process after running the server
+pkill -1 nginx
