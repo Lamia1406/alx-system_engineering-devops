@@ -1,3 +1,4 @@
 #!/bin/bin/env bash
 # kill nginx process after running the server
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 pkill -1 nginx
